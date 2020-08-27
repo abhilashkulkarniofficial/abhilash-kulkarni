@@ -16,7 +16,7 @@
         </h4>
 
         <p class="subheading font-weight-regular">
-          Data Scientist, Full Stack Developer
+          Data Scientist &#128200;, Full Stack Developer &#128187;
         </p>
       </v-col>
 
