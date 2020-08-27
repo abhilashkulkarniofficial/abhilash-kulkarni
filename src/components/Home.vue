@@ -5,7 +5,7 @@
         <v-avatar size="100">
       <img
         src="@/assets/my_avatar.jpeg"
-        alt="John"
+        alt="Abhilash"
       >
     </v-avatar>
       </v-col>
