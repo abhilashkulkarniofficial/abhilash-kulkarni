@@ -2,7 +2,7 @@
   <v-container fill-height fluid>
     <v-row class="text-center">
       <v-col cols="12">
-        <v-avatar size="100">
+        <v-avatar size="150">
       <img
         src="@/assets/my_avatar.jpeg"
         alt="Abhilash"
@@ -16,7 +16,8 @@
         </h4>
 
         <p class="subheading font-weight-regular">
-          Data Scientist &#128200;, Full Stack Developer &#128187;
+         I'm a Data Scientist &#128200; <br/>
+         and a Full Stack Developer &#128187;
         </p>
       </v-col>
 
