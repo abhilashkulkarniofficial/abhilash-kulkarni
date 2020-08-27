@@ -1,59 +1,28 @@
 <template>
-  <v-app>
-    <!-- <v-app-bar
-      app
-      flat
-      dense
-      color="white"
-    >
-
-      <v-spacer></v-spacer>
-        <v-btn class="ma-2" tile color="indigo" dark small outlined>Profile
-        <v-icon dark right>mdi-emoticon-cool</v-icon>
-        </v-btn>
-        <v-btn class="ma-2" tile color="indigo" dark small outlined>Projects
-        <v-icon dark right>mdi-laptop-chromebook</v-icon>
-        </v-btn>
-    </v-app-bar> -->
-
-    <v-main>
-      <Home/>
-    </v-main>
-    <v-footer padless class="indigo white--text lighten-1">
-    <v-col
-      class="text-center"
-      cols="12"
-    >
-      <v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-4 white--text"
-          icon
-        >
-          <v-icon size="24px">{{ icon }}</v-icon>
-        </v-btn>
-    </v-col>
-  </v-footer>
-  </v-app>
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
+    <Home msg="Welcome to Your Vue.js App"/>
+  </div>
 </template>
 
 <script>
-import Home from './components/Home';
+import Home from './components/Home.vue'
 
 export default {
   name: 'App',
-
   components: {
-    Home,
-  },
-
-  data: () => ({
-    icons: [
-        'mdi-facebook',
-        'mdi-github',
-        'mdi-linkedin',
-        'mdi-instagram',
-      ],
-  }),
-};
+    Home
+  }
+}
 </script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
