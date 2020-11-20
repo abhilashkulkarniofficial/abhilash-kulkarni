@@ -50,10 +50,10 @@ export default {
         icon:'mdi-linkedin',
         link:'https://www.linkedin.com/in/abhilashkulkarniofficial/'
       },
-      {
-        icon:'mdi-instagram',
-        link:'https://www.instagram.com/the_koolkarni/'
-      }
+      // {
+      //   icon:'mdi-instagram',
+      //   link:'https://www.instagram.com/the_koolkarni/'
+      // }
       ],
   }),
 };
